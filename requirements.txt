@@ -5,6 +5,7 @@ async-generator==1.10
 attrs==21.2.0
 backcall==0.2.0
 bleach==3.3.0
+cargo==0.3
 cffi==1.14.5
 colorama==0.4.4
 db==0.1.1
@@ -56,6 +57,7 @@ pyrsistent==0.17.3
 python-dateutil==2.8.1
 pytube3==9.6.4
 pytz==2021.1
+pywin32==300
 pywinpty==1.0.1
 pyzmq==22.0.3
 qtconsole==5.1.0
