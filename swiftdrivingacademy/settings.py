@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ehy+*r=!@^g1m7fb658c+%^h93(^jj^hk1)*!+8f-tf5ce@1+^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', "swiftdrivingacademy.herokuapp.com"]
 
 
 # Application definition
@@ -124,6 +124,8 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
